@@ -1,0 +1,184 @@
+{
+  "time_structure": {
+    "working_days": 5,
+    "periods_per_day": 6,
+    "break_periods": [
+      3
+    ]
+  },
+  "subjects": [
+    {
+      "code": "CS301",
+      "name": "Data Structures",
+      "weekly_hours": 4,
+      "type": "theory"
+    },
+    {
+      "code": "CS302",
+      "name": "Data Structures Lab",
+      "weekly_hours": 2,
+      "type": "lab"
+    },
+    {
+      "code": "MA301",
+      "name": "Discrete Mathematics",
+      "weekly_hours": 3,
+      "type": "theory"
+    },
+    {
+      "code": "CS303",
+      "name": "Database Systems",
+      "weekly_hours": 3,
+      "type": "theory"
+    },
+    {
+      "code": "CS304",
+      "name": "DBMS Lab",
+      "weekly_hours": 2,
+      "type": "lab"
+    },
+    {
+      "code": "HS301",
+      "name": "Technical Communication",
+      "weekly_hours": 2,
+      "type": "theory"
+    }
+  ],
+  "teachers": [
+    {
+      "name": "Dr. Anita Sharma",
+      "subjects": [
+        "CS301",
+        "CS302"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 9
+    },
+    {
+      "name": "Prof. Rohit Iyer",
+      "subjects": [
+        "CS301"
+      ],
+      "unavailable_slots": [
+        {
+          "day": 4,
+          "period": 5
+        }
+      ],
+      "max_weekly_load": 9
+    },
+    {
+      "name": "Dr. Rajesh Verma",
+      "subjects": [
+        "MA301"
+      ],
+      "unavailable_slots": [
+        {
+          "day": 0,
+          "period": 0
+        }
+      ],
+      "max_weekly_load": 11
+    },
+    {
+      "name": "Dr. Suresh Menon",
+      "subjects": [
+        "CS303",
+        "CS304"
+      ],
+      "unavailable_slots": [
+        {
+          "day": 2,
+          "period": 0
+        }
+      ],
+      "max_weekly_load": 6
+    },
+    {
+      "name": "Prof. Kiran Rao",
+      "subjects": [
+        "CS303",
+        "CS304"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 6
+    },
+    {
+      "name": "Ms. Neha Kulkarni",
+      "subjects": [
+        "HS301"
+      ],
+      "unavailable_slots": [
+        {
+          "day": 4,
+          "period": 4
+        },
+        {
+          "day": 4,
+          "period": 5
+        }
+      ],
+      "max_weekly_load": 7
+    }
+  ],
+  "classes": [
+    {
+      "name": "CSE-A",
+      "strength": 60,
+      "subjects": [
+        "CS301",
+        "CS302",
+        "MA301",
+        "CS303",
+        "HS301"
+      ],
+      "lunch_break_slot": 3
+    },
+    {
+      "name": "CSE-B",
+      "strength": 55,
+      "subjects": [
+        "CS301",
+        "MA301",
+        "CS303",
+        "CS304",
+        "HS301"
+      ],
+      "lunch_break_slot": 3
+    },
+    {
+      "name": "AI-A",
+      "strength": 50,
+      "subjects": [
+        "CS301",
+        "CS302",
+        "MA301",
+        "CS304",
+        "HS301"
+      ],
+      "lunch_break_slot": 3
+    }
+  ],
+  "rooms": [
+    {
+      "name": "CR-201",
+      "capacity": 65,
+      "type": "classroom"
+    },
+    {
+      "name": "CR-202",
+      "capacity": 60,
+      "type": "classroom"
+    },
+    {
+      "name": "Lab-1",
+      "capacity": 65,
+      "type": "lab"
+    },
+    {
+      "name": "Lab-2",
+      "capacity": 55,
+      "type": "lab"
+    }
+  ]
+}
